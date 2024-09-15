@@ -1,0 +1,54 @@
+/* input [type="text"] {
+  background-color: #eee;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+input[type="button"] {
+  background-color: crimson;
+  color: white;
+  padding: 20px;
+}
+select {
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 3px;
+} */
+
+/* Using classes */
+.frm-control {
+  width: 200px;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+table {
+  width: 100%;
+  background-color: #eee;
+  border-collapse: collapse;
+}
+table tr th {
+  background-color: #eee;
+  border: 1px solid #333;
+  padding: 8px;
+}
+table tr td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+table tr:nth-child(even) td {
+  background-color: black;
+  color: white;
+}
+/* Write color even child after to add child color on even number  */
+table tr.total td {
+  background-color: chocolate;
+}
+table tr.total td:nth-child(1) {
+  /* text-align: center; */
+  text-align: right;
+}
+table tr:hover td{
+    background-color:coral;
+}
